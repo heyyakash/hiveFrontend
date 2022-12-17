@@ -1,6 +1,7 @@
 import { Canvas } from '@react-three/fiber'
 import Head from 'next/head'
 import Image from 'next/image'
+import Orbit from '../components/Orbit'
 import Skybox from '../components/Skybox'
 import styles from '../styles/Home.module.css'
 
@@ -15,9 +16,10 @@ export default function Home() {
       </Head>
     </div>
 
-    <div>
+    <div className='w-full h-[100vh]'>
       <Canvas>
       <Skybox />
+      <Orbit />
       </Canvas>
     </div>
     </>
