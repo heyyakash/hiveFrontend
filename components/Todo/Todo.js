@@ -35,7 +35,7 @@ function Todo() {
   }
   return (
         
-        <Html position={[0,0,-7]} transform occlude className="rounded-[20px] rotate-z  p-2 z-rotate mx-auto w-[500px] min-h-[300px] shadow-2xl bg-white/80">
+        <Html position={[0,0,-10]} transform occlude className="rounded-[20px] rotate-z  p-2 z-rotate mx-auto w-[500px] min-h-[300px] shadow-2xl bg-white/80">
           {/* hello */}
             <Input handler={addToDoHandler} />
             <Box data={todos} removeHandler={removeToDo}/>

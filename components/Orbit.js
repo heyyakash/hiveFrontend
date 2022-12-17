@@ -22,6 +22,7 @@ const Orbit = () => {
       RIGHT:"ArrowRight",
       BOTTOM:"ArrowDown"
     }
+    controls.current.dampingFactor = 1
     controls.current.keyPanSpeed = 130;
     controls.current.listenToKeyEvents(window)
     controls.current.panSpeed= 10

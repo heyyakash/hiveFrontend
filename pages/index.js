@@ -1,9 +1,11 @@
 import { Canvas } from '@react-three/fiber'
 import Head from 'next/head'
 import Image from 'next/image'
+import Calendar from '../components/Calendar/Calendar'
 import Call from '../components/Call'
 import Email from '../components/Email/Email'
 import Github from '../components/Github/Github'
+import Player from '../components/Music/Player'
 import Orbit from '../components/Orbit'
 import Skybox from '../components/Skybox'
 import ThreeDText from '../components/Todo/ThreeDText'
@@ -29,11 +31,13 @@ export default function Home() {
           <Skybox />
           {/* <ThreeDText /> */}
           
-          {/* <Twitter />
+          <Twitter />
           <Todo />
           <Github />
-          <Email /> */}
-          <Call />
+          <Email />
+          <Player />
+          <Calendar />
+          {/* <Call  /> */}
           <Orbit />
         </Canvas>
       </div>
