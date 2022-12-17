@@ -22,7 +22,7 @@ const Orbit = () => {
       RIGHT:"KeyD",
       BOTTOM:"KeyS"
     }
-    controls.current.keyPanSpeed = 100;
+    controls.current.keyPanSpeed = 130;
     controls.current.listenToKeyEvents(window)
     controls.current.panSpeed= 10
     return controls.current.update()
