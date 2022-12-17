@@ -12,7 +12,7 @@ const Orbit = () => {
 
   const controls = useRef()
   
-  console.log(controls)
+
   useFrame(() => {
     // controls.current.mouseButtons.RIGHT = THREE.MOUSE.ROTATE
     // controls.current.mouseButtons.LEFT = THREE.MOUSE.PAN
