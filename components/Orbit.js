@@ -17,10 +17,10 @@ const Orbit = () => {
     // controls.current.mouseButtons.RIGHT = THREE.MOUSE.ROTATE
     // controls.current.mouseButtons.LEFT = THREE.MOUSE.PAN
     controls.current.keys = {
-      LEFT:"KeyA",
-      UP:"KeyW",
-      RIGHT:"KeyD",
-      BOTTOM:"KeyS"
+      LEFT:"ArrowLeft",
+      UP:"ArrowUp",
+      RIGHT:"ArrowRight",
+      BOTTOM:"ArrowDown"
     }
     controls.current.keyPanSpeed = 130;
     controls.current.listenToKeyEvents(window)
@@ -34,7 +34,7 @@ const Orbit = () => {
       // autoRotate = {true}
       autoRotateSpeed = {1}
       enableZoom={true}
-      enableDamping={true}
+      enableDamping={true} 
     />
   )
 }

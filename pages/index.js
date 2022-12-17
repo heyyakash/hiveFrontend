@@ -1,10 +1,13 @@
 import { Canvas } from '@react-three/fiber'
 import Head from 'next/head'
 import Image from 'next/image'
+import Email from '../components/Email/Email'
 import Orbit from '../components/Orbit'
 import Skybox from '../components/Skybox'
+import ThreeDText from '../components/Todo/ThreeDText'
 import Todo from '../components/Todo/Todo'
 import Todos from '../components/Todo/Todos'
+import Twitter from '../components/Twitter/Twitter'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -22,6 +25,9 @@ export default function Home() {
         <Canvas>
           
           <Skybox />
+          {/* <ThreeDText /> */}
+          {/* <Email /> */}
+          <Twitter />
           <Todo />
           <Orbit />
         </Canvas>

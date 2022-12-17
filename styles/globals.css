@@ -10,3 +10,5 @@
     @apply w-full min-h-[100vh];
   }
 }
+
+@layer components{}
