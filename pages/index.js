@@ -5,13 +5,16 @@ import Calendar from '../components/Calendar/Calendar'
 import Call from '../components/Call'
 import Email from '../components/Email/Email'
 import Github from '../components/Github/Github'
+import ChatWindow from '../components/Message/Message'
 import Player from '../components/Music/Player'
+import Notion from '../components/Notion'
 import Orbit from '../components/Orbit'
 import Skybox from '../components/Skybox'
 import ThreeDText from '../components/Todo/ThreeDText'
 import Todo from '../components/Todo/Todo'
 import Todos from '../components/Todo/Todos'
 import Twitter from '../components/Twitter/Twitter'
+import VideoCall from '../components/VideoCall'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -37,6 +40,9 @@ export default function Home() {
           <Email />
           <Player />
           <Calendar />
+          <ChatWindow />
+          <VideoCall />
+          <Notion />
           {/* <Call  /> */}
           <Orbit />
         </Canvas>
